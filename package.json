@@ -1,0 +1,29 @@
+{
+  "name": "bera-light-ui",
+  "version": "0.0.0",
+  "theme": "ui",
+  "description": "Bera Light UI Theme for Inkdrop",
+  "repository": "https://github.com/TaylanTatli/inkdrop-bera-light-ui-theme",
+  "styleSheets": [
+    "theme.min.css"
+  ],
+  "scripts": {
+    "run": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "inkdrop",
+    "markdown"
+  ],
+  "author": "Taylan Tatlı<taylantatli90 [dot] inkdrop.app>",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-ui": "^2.4.2"
+  },
+  "browserslist": [
+    "Electron 7.1.13"
+  ],
+  "engines": {
+    "inkdrop": "^4.x"
+  }
+}
