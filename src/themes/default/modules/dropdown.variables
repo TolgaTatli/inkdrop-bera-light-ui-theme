@@ -8,7 +8,9 @@
 
 @transition:
   box-shadow @defaultDuration @defaultEasing,
-  width @defaultDuration @defaultEasing
+  width @defaultDuration @defaultEasing,
+  outline-offset 100ms @defaultEasing,
+  outline-color 100ms @defaultEasing
 ;
 @borderRadius: @defaultBorderRadius;
 
@@ -23,7 +25,10 @@
 @dropdownIconMargin: 0em 0em 0em 1em;
 
 /* Current Text */
-@textTransition: none;
+@textTransition:
+  outline-offset 100ms @defaultEasing,
+  outline-color 100ms @defaultEasing
+;
 
 /* Menu */
 @menuBackground: @white;
@@ -96,7 +101,7 @@
 
 /* Menu Image */
 @menuImageMaxHeight: 2em;
-@menuImageVerticalMargin: -(@menuImageMaxHeight - 1em) / 2;
+@menuImageVerticalMargin: (-(@menuImageMaxHeight - 1em) / 2);
 
 /* Item Sub-Element */
 @itemElementFloat: none;
@@ -162,7 +167,7 @@
 @selectionIconZIndex: 3;
 @selectionIconHitbox: @selectionVerticalPadding;
 @selectionIconMargin: -@selectionIconHitbox;
-@selectionIconPadding: @selectionIconHitbox / @dropdownIconSize;
+@selectionIconPadding: (@selectionIconHitbox / @dropdownIconSize);
 @selectionIconTransition: opacity @defaultDuration @defaultEasing;
 
 @selectionMenuBorderRadius: 0em 0em @borderRadius @borderRadius;

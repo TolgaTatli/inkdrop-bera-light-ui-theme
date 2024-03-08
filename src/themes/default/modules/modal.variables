@@ -19,19 +19,19 @@
 
 @closeHitbox: 2.25rem;
 @closeDistance: 0.25rem;
-@closeHitBoxOffset: (@closeHitbox - 1rem) / 2;
+@closeHitBoxOffset: ((@closeHitbox - 1rem) / 2);
 @closePadding: @closeHitBoxOffset 0rem 0rem 0rem;
 @closeTop: -(@closeDistance + @closeHitbox);
 @closeRight: -(@closeDistance + @closeHitbox);
 
 /* Header */
 @headerMargin: 0em;
-@headerVerticalPadding: 1.25rem;
-@headerHorizontalPadding: 1.5rem;
+@headerVerticalPadding: 1.0rem;
+@headerHorizontalPadding: 1.20rem;
 @headerPadding: @headerVerticalPadding @headerHorizontalPadding;
 @headerBackground: @white;
 @headerColor: @darkTextColor;
-@headerFontSize: @huge;
+@headerFontSize: 1em;
 @headerBoxShadow: none;
 @headerFontWeight: @bold;
 @headerFontFamily: @headerFont;
@@ -39,7 +39,7 @@
 
 /* Content */
 @contentFontSize: 1em;
-@contentPadding: 1.5rem;
+@contentPadding: 1.0rem;
 @contentLineHeight: 1.4;
 @contentBackground: #FFFFFF;
 

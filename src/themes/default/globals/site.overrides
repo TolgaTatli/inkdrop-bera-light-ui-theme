@@ -1,35 +1,3 @@
 /*******************************
         Global Overrides
 *******************************/
-/* Borders */
-.note-list-bar-layout {
-  border-right: 1px solid #DEDEDF;
-}
-
-
-.mde-toolbar,
-.mde-layout {
-	border-top: 1px solid #DEDEDF;
-}
-
-.sidetoc-pane {
-	border-left: 1px solid #DEDEDF;
-}
-
-/* Fonts */
-.simple-note-list-item-view.note-list-item-view .content .header,
-.note-list-header .note-list-header-title-bar,
-.editor-title-input.ui.input > input {
-	font-weight: bold;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar {
-	display: none;
-}
-
-/* Paddings */
-
-.simple-note-list-item-view.note-list-item-view {
-	padding: 8px 0 8px 10px;
-}

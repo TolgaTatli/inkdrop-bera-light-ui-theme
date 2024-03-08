@@ -16,7 +16,7 @@
 @padding: (@verticalPadding - @lineHeightOffset) @horizontalPadding;
 
 @textAlign: left;
-@background: #f9f9f9;
+@background: @inputBackground;
 @borderWidth: 1px;
 @border: @borderWidth solid @borderColor;
 @boxShadow: none;
@@ -24,7 +24,9 @@
 @borderRadius: @defaultBorderRadius;
 @transition:
   box-shadow @defaultDuration @defaultEasing,
-  border-color @defaultDuration @defaultEasing
+  border-color @defaultDuration @defaultEasing,
+  outline-offset @defaultDuration @defaultEasing,
+  outline-color @defaultDuration @defaultEasing
 ;
 
 /*-------------------
